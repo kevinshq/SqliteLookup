@@ -1,63 +1,11 @@
-#Android generated
-bin
-gen
-proguard
-
-#IntelliJ IDEA
-.idea
 *.iml
-classes
-
-#Command line
-build.xml
-proguard-project.txt
-
-
-build
 .gradle
-
-##############my configs
-# built application files
-*.apk
-*.ap_
-
-# files for the dex VM
-*.dex
-
-# Java class files
-*.class
-
-# generated files
-bin/
-gen/
-proguard/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-*.pydevproject
-.metadata
-bin/**
-tmp/**
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.loadpath
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# CDT-specific
-.cproject
-
-# PDT-specific
-.buildpath
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
 .DS_Store
-project.properties
-/libs
+/build
+/captures
+.externalNativeBuild
+
+/app/build
